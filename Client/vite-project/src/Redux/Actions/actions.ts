@@ -1,4 +1,4 @@
-/* import axios, { AxiosInstance } from "axios";
+import axios, { AxiosInstance } from "axios";
 import { Dispatch } from "redux";
 import { User } from "firebase/auth";
 import { ThunkAction } from "redux-thunk";
@@ -333,9 +333,9 @@ export const removeFavoriteRoom = (identifier: string, roomId: string) => {
       console.error("Error al eliminar la habitación de favoritos:", error);
     }
   };
-}; */
+}; 
 
-
+/*
 import axios from "axios";
 import { Dispatch } from "redux";
 import { ThunkAction } from "redux-thunk";
@@ -700,3 +700,4 @@ export const removeFavoriteRoom = (identifier: string, roomId: string) => {
     }
   };
 };
+*/
