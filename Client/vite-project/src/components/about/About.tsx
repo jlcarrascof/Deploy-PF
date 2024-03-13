@@ -1,6 +1,10 @@
 import React from "react";
 import TeamMember from "./TeamMember";
 import "./about.css";
+import diegoPic from '../../../images/Diego-photo.jpg'
+import renta from '../../../images/en-renta.png'
+import avatar from '../../../images/avatar.png'
+import propietario from '../../../images/propietario.png'
 
 interface TeamMemberProps {
   name: string;
@@ -12,7 +16,7 @@ const teamMembers: TeamMemberProps[] = [
   {
     name: "Diego Arturo Quevedo",
     linkedin: "https://www.linkedin.com/in/diego-arturo-quevedo-ramirez-2bb197281/",
-    image: "../../images/Diego-photo.jpg",
+    image: diegoPic,
   },
   {
     name: "Micaela Diana Solórzano",
