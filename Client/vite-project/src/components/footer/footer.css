@@ -1,0 +1,23 @@
+footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 100px;
+  padding: 70px;
+  background-color: #1d1a39;
+  color: #fff;
+  bottom: 0;
+}
+
+.footerContent {
+  display: flex;
+  justify-content: left;
+  text-align: left;
+  flex-direction: column;
+  align-items: left;
+  line-height: 2.5;
+}
+.footerContent h5 {
+  color: #fff;
+  text-decoration: none;
+}

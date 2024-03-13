@@ -1,0 +1,36 @@
+.reservations-title {
+  font-size: 2.2vw;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.reservation-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.reservation-label {
+  font-weight: bold;
+  margin-right: 10px;
+  color: #2b124c; 
+}
+
+.reservations-title {
+  font-size: 2.5rem; 
+  color: #2b124c; 
+  margin-bottom: 20px;
+}
+
+
+.reservation-label,
+.reservation-value {
+  font-size: 1.2rem; 
+  color: #4f4f4f; 
+}
+
+.reservation-item {
+  background-color: #e0e0e0;
+  border-radius: 15px;
+  padding: 15px;
+  box-shadow: 10px 10px 30px #bebebe, -10px -10px 30px #ffffff;
+}

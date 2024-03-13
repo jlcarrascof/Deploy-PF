@@ -1,0 +1,110 @@
+.navBar {
+  height: 75px;
+  background-color: #1d1a39;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  margin-bottom: 40px;
+}
+
+.navBar p {
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.navBar p:hover {
+  color: rgb(181, 145, 232);
+}
+
+.dropbox{
+  gap: 4px;
+  display: grid;
+  width: fit-content;
+  grid-template-columns: 1fr 1fr;
+}
+
+.avatar {
+  width: fit-content;
+  display: grid;
+  gap: 25px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.navContainer {
+  width: 100%;
+  margin: 0 1em;
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  max-width: 1024px;
+  background-color: #1d1a39;
+  color: white;
+  display: flex;
+  flex: 0 0 auto;
+}
+.navContainer .logo {
+  color: white;
+  text-decoration: none;
+}
+.navItems > * {
+  padding: 0.75rem;
+  margin: 0 0.5em;
+  color: #fff;
+  text-decoration: none;
+}
+.navItems {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
+.navSeparator {
+  width: 1%;
+  flex: 1 1 auto;
+}
+
+.navContainer .logo {
+  /* font-weight: 500;*/
+  flex: 0 0 auto;
+  padding: 0 !important;
+  height: auto !important;
+  margin: 0;
+}
+
+.btnLogin {
+  background-color: #ffffff;
+  color: #2b124c;
+  flex: 0 0 auto;
+  height: max-content;
+  margin: 0 1.2em;
+  padding: 0.5px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+.btnLogin > p {
+  margin: 0;
+  padding: 0.2em 0.5em;
+}
+
+.btnLogin:hover {
+  color: rgb(181, 145, 232);
+  background-color: #1d1a39;
+}
