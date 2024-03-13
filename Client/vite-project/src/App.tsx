@@ -20,6 +20,8 @@ import UserProfile from "./components/userProfile/UserProfile";
 // ? -----------------------------------------------------STYLES
 import "./App.css";
 import SideBar from "./components/admin/utils/sideBar";
+import axios from "axios";
+axios.defaults.baseURL = "http://localhost:3002";
 
 function App() {
   return (

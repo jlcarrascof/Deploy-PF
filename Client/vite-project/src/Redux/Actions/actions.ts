@@ -352,7 +352,7 @@ export const createUser = (userData: any) => {
   return async (dispatch: Dispatch<Action>) => {
     try {
       const response = await axios.post(
-        "http://localhost:3002/users",
+        "/users",
         userData
       );
       dispatch({
@@ -368,7 +368,7 @@ export const createUser = (userData: any) => {
 export const getUsers = () => {
   return async (dispatch: Dispatch<Action>) => {
     try {
-      const { data } = await axios.get("http://localhost:3002/admin/users/");
+      const { data } = await axios.get("/admin/users/");
       dispatch({
         type: "GET_USERS",
         payload: data,
